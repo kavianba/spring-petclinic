@@ -1,0 +1,22 @@
+---
+name: supply-chain
+
+on:
+  pull_request:
+
+jobs:
+  default:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Test
+        run: mvn --no-transfer-progress test
