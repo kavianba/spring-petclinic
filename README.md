@@ -1,7 +1,5 @@
 # Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)
 
-xxx
-
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
@@ -194,12 +192,4 @@ tanzu apps workload get gevans-petclinic
 To access the deployed app use the URL shown under "Workload Knative Services".
 
 This depends on the TAP installation having DNS configured for the Knative ingress.
-
-
-
-
-
-
-
-
 
