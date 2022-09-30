@@ -35,44 +35,30 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-      <!-- To Fix Grype -->
-      <version>2.7.4</version>
       <scope>test</scope>
     </dependency>
 
@@ -80,7 +66,7 @@
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
-      <version>1.32</version>
+      <!--<version>1.32</version>-->
     </dependency>
 
     <!-- Databases - Uses H2 by default -->
@@ -104,7 +90,7 @@
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <!-- To Fix Grype -->
-      <version>42.3.7</version>
+      <!--<version>42.3.7</version>-->
       <scope>runtime</scope>
     </dependency>
 
