@@ -130,7 +130,7 @@
       <groupId>org.webjars.npm</groupId>
       <artifactId>bootstrap</artifactId>
       <!-- To Fix Grype -->
-      <version>5.2.1</version>
+      <version>5.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.npm</groupId>
